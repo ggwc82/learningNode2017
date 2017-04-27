@@ -46,4 +46,20 @@ router.put('/:id', function(req, res){
 	})
 })
 
+router.get('/delete/:id', function(req, res) {
+	var collection = db.get('videos');
+	collection.findOne({_id: req.params.id}, function(err, video) {
+		if (err) throw err;
+		res.json(video);
+ 	})
+})
+
+router.delete('/delete/:id', function(req, res) {
+	var collection = db.get('videos');
+	collection.remove({_id: req.params.id}, function(err, video) {
+		if (err) throw err;
+		res.json(video);
+ 	})
+})
+
 module.exports = router;
