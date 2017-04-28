@@ -2,6 +2,10 @@
 
 This is my personal learning log for learning Node.JS starting April 2017. In this README file, I'll include both resources and a daily log of my accomplishments, inspired by the weekly learning objectives and Agile reviews I did at Makers Academy.
 
+## Day 3 - Fri 28th April 2017
+
+After reading alot of articles and blogs on the JavaScript landscape, it's become very clear that the two big frontend JavaScript frameworks/libraries to know are Angular 2 and React. It seems that learning Angular 1 would not be a great decision going forward, and the learning curve for React is a lot shorter than Angular 2. As I'm juggling many other tasks at work and in my life right now, I need to be able to become productive in the shortest amount of time possible. I'm also liking the fact that Facebook have recently added VR development capabilities for React, so this is something that could possibly be of use for opportunities or projects at work.
+
 
 ## Day 2 - Thurs 27th April 2017
 
