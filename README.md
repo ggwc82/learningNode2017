@@ -11,6 +11,8 @@ The focus today will be Facebook's tutorial and then most likely, a course I fou
 
 UPDATE - it seems that with the newer ES6 syntax that React uses, alot of Quora answers recommend getting a full understanding of ES6 prior to undertaking React. I fully agree with this, and hence have pivoted to tackling JavaScript from the ground up. As it's not my first time covering JS, I can get through the fundamentals fairly quickly then proceed with learning the ins and outs of ES6.
 
+I've been making significant progress with David Katz's Udemy course on ES6. Some of the new features we've covered are assignment with let and const, block scoping, template literals, spread operator and rest parameters and destructuring of arrays and objects. I've just started on arrow functions, along with helper methods map and filter. 
+
 
 ## Day 3 - Fri 28th April 2017
 

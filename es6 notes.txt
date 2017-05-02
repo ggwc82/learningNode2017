@@ -1,0 +1,97 @@
+Gotta learn ES6 and the new features, syntax to understand React.JS
+
+snake casing e.g. first_greeting
+camelcasing e.g. firstGreeting
+
+identifiers are valid starting with $, underscores. Can't start with numbers or be reserved keywords such as var.
+
+parameters are the inputs into a function. the arguments are the actual identifiers or variables passed into that function.
+
+functions can be defined like this:
+
+function functionName(input){
+	console.log(input);
+}
+
+or assigned to a variable:
+
+var addThis = function(a, b) {
+	return a + b;
+}
+
+ both need to be invoked:
+
+ functionName("hello");
+ addThis(3, 6);
+
+Object literals:
+
+var dog = {
+	breed: "Poodle",
+	colour: "brown",
+	bark: function(){
+		console.log("Woof!");
+	}
+}
+
+dog.bark(); // console logs Woof!
+
+
+ Switch statements as a replacement for if/else if/else
+
+var x = 1;
+ switch(x) {
+ 	case 1:
+ 		console.log("this is 1");
+ 		break;
+ 	case 2:
+ 		console.log("this is 2");
+ 		break;
+ 	default:
+ 		console.log("the number is " + x);
+ 		break;
+ }
+
+
+
+ ES6
+ let and const - enables the benefits of block scoping {} compared to the var keyword
+
+ constants cant be reassigned, but they can be modified. In the case of arrays, .push method works
+
+
+ Review:
+
+ Let replaces var in es6 in term of variable assignment. Let also allows for block scoping, in contrast to var.
+
+Const declares variables that cannot be re-assigned. Constants also allow for block scoping along with ‘let.’
+
+Template literals, created by a pair of back-ticks, allow for embedded-expressions using the dollar-sign and a pair of curly braces: `${...}`
+
+Local scope refers to the set of statements, variables, objects, and more that confine to a coding block denoted by a pair of curly braces: { ... }
+
+Global scope refers to the set of statements, variables, objects, methods, and more that exist outside and beyond all local scope functions and coding blocks.
+
+The spread operator spreads individual values to allow for expansion with multiple arguments and elements. Denoted by three periods: ...
+
+Rest parameters allow for the gathering of multiple parameter calls into one array: Denoted by three periods: …
+
+Destructuring assignment on arrays allows for much more efficient array manipulation and assigns multiple variables from array data based on the index value.
+
+Destructuring assignment on objects allows for more concise object manipulation and assigns multiple variables from object data based on keynames.
+
+
+FUNCTION DECLARATION VS ANONYMOUS FUNCTION EXPRESSION (FD vs AFE - g.c.)
+
+function declaration (when you actually use the function KEYWORD to name/declare the function:
+
+function hello() {
+	console.log("hello");
+}
+
+function expression (anonymous) is when you write an unnamed function that is either directly passed as an arguement (i.e. a callback function) or is assigned to an identifier:
+
+var hello = function(){
+	console.log("hi");
+}
+
