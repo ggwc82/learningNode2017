@@ -9,6 +9,8 @@ I spent a lot of day 3 trying to find the best tutorial to follow, and there's j
 
 The focus today will be Facebook's tutorial and then most likely, a course I found on Udemy.
 
+UPDATE - it seems that with the newer ES6 syntax that React uses, alot of Quora answers recommend getting a full understanding of ES6 prior to undertaking React. I fully agree with this, and hence have pivoted to tackling JavaScript from the ground up. As it's not my first time covering JS, I can get through the fundamentals fairly quickly then proceed with learning the ins and outs of ES6.
+
 
 ## Day 3 - Fri 28th April 2017
 
