@@ -2,6 +2,9 @@
 
 This is my personal learning log for learning Node.JS starting April 2017. In this README file, I'll include both resources and a daily log of my accomplishments, inspired by the weekly learning objectives and Agile reviews I did at Makers Academy.
 
+## Day 5 - Wed 3rd May 2017
+
+Today is a half day, but during this morning I managed to cover more of the new ES6 helper methods for strings, JavaScript classes and prototypes. I'm nearing the point where I'll need to start putting this knowledge into practice, in order to let it sink in. It's very similar in learning any language, the more you speak, read and write, the quicker you'll become proficient in it. Also, one should not be afraid of making mistakes, as there are lessons to be learned from doing things the wrong way and then correcting them.
 
 ## Day 4 - Tues 2nd May 2017
 
